@@ -1,0 +1,6 @@
+import pandas as pd
+
+# Load dataset
+df = pd.read_csv("ebola_data_db_format.csv")
+
+print(df.head())
